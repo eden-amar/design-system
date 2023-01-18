@@ -1,0 +1,37 @@
+@import url(./../../sytles/color/colors.css);
+
+.buttons-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1em;
+}
+.button{
+    padding: 1em 2em;
+    border-radius: 6.25em;
+    transition:
+    .2s linear color,
+    .2s linear background-color,
+    .2s linear box-shadow;
+}
+.filled{
+    background-color: var( --color-primary);
+    color: var(--color-primary-container);
+    border: none;
+}
+.outline{
+    background-color: var(--color-surface);
+    color: var(--color-primary);
+    border: var(--color-outline) 1px solid;
+}
+.text{
+    border: none;
+    color: var(--color-primary);
+    background-color: transparent;
+}
+
+.filled:hover:not(:disabled){
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+

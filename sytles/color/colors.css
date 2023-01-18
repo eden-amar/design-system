@@ -1,0 +1,286 @@
+html {
+    --color-primary-0: #000000;
+    --color-primary-10:#21005D;
+    --color-primary-20:#381E72;
+    --color-primary-30:#4F378B;
+    --color-primary-40:#6750A4;
+    --color-primary-50:#7F67BE;
+    --color-primary-60:#9A82DB;
+    --color-primary-70:#B69DF8;
+    --color-primary-80:#D0BCFF;
+    --color-primary-90:#EADDFF;
+    --color-primary-95:#F6EDFF;
+    --color-primary-99:#FFFBFE;
+    --color-primary-100:#FFFFFF;
+
+    --color-secondary-0: #000000;
+    --color-secondary-10:#1D192B;
+    --color-secondary-20:#332D41;
+    --color-secondary-30:#4A4458;
+    --color-secondary-40:#625B71;
+    --color-secondary-50:#7A7289;
+    --color-secondary-60:#958DA5;
+    --color-secondary-70:#B0A7C0;
+    --color-secondary-80:#CCC2DC;
+    --color-secondary-90:#E8DEF8;
+    --color-secondary-95:#F6EDFF;
+    --color-secondary-99:#FFFBFE;
+    --color-secondary-100:#FFFFFF;
+
+    --color-tertiary-0: #000000;
+    --color-tertiary-10:#31111D;
+    --color-tertiary-20:#492532;
+    --color-tertiary-30:#633B48;
+    --color-tertiary-40:#7D5260;
+    --color-tertiary-50:#986977;
+    --color-tertiary-60:#B58392;
+    --color-tertiary-70:#D29DAC;
+    --color-tertiary-80:#EFB8C8;
+    --color-tertiary-90:#FFD8E4;
+    --color-tertiary-95:#FFECF1;
+    --color-tertiary-99:#FFFBFE;
+    --color-tertiary-100:#FFFFFF;
+
+    --color-error-0: #000000;
+    --color-error-10:#410E0B;
+    --color-error-20:#601410;
+    --color-error-30:#8C1D18;
+    --color-error-40:#B3261E;
+    --color-error-50:#DC362E;
+    --color-error-60:#E46962;
+    --color-error-70:#EC928E;
+    --color-error-80:#F2B8B5;
+    --color-error-90:#F9DEDC;
+    --color-error-95:#FCEEEE;
+    --color-error-99:#FFFBFE;
+    --color-error-100:#FFFFFF;
+
+    --color-neutral-0: #000000;
+    --color-neutral-10:#1C1B1F;
+    --color-neutral-20:#313033;
+    --color-neutral-30:#484649;
+    --color-neutral-40:#605D62;
+    --color-neutral-50:#787579;
+    --color-neutral-60:#939094;
+    --color-neutral-70:#AEAAAE;
+    --color-neutral-80:#C9C5CA;
+    --color-neutral-90:#E6E1E5;
+    --color-neutral-95:#F4EFF4;
+    --color-neutral-99:#FFFBFE;
+    --color-neutral-100:#FFFFFF;
+
+    --color-neutral-variant-0: #000000;
+    --color-neutral-variant-10:#1D1A22;
+    --color-neutral-variant-20:#322F37;
+    --color-neutral-variant-30:#49454F;
+    --color-neutral-variant-40:#605D66;
+    --color-neutral-variant-50:#79747E;
+    --color-neutral-variant-60:#938F99;
+    --color-neutral-variant-70:#AEA9B4;
+    --color-neutral-variant-80:#CAC4D0;
+    --color-neutral-variant-90:#E7E0EC;
+    --color-neutral-variant-95:#F5EEFA;
+    --color-neutral-variant-99:#FFFBFE;
+    --color-neutral-variant-100:#FFFFFF;
+
+
+    --color-primary: var(--color-primary-40);
+    --color-on-primary: var(--color-primary-100);
+
+    --color-primary-container: var(--color-primary-90);
+    --color-on-primary-container: var(--color-primary-10);
+
+    --color-secondary: var(--color-secondary-40);
+    --color-on-secondary: var(--color-secondary-100);
+
+    --color-secondary-container: var(--color-secondary-90);
+    --color-on-secondary-container: var(--color-secondary-10);
+
+    --color-tertiary: var(--color-tertiary-40);
+    --color-on-tertiary: var(--color-tertiary-100);
+
+    --color-tertiary-container: var(--color-tertiary-90);
+    --color-on-tertiary-container: var(--color-tertiary-10);
+    
+    --color-error: var(--color-error-40);
+    --color-on-error: var(--color-error-100);
+
+    --color-error-container: var(--color-error-90);
+    --color-on-error-container: var(--color-error-10);
+    
+    --color-background: var(--color-neutral-99);
+    --color-on-background: var(--color-neutral-10);
+  
+    --color-surface: var(--color-neutral-99);
+    --color-on-surface: var(--color-neutral-10);
+
+    --color-outline: var(--color-neutral-50);
+
+font-family: sans-serif;
+}
+.primary0 {background-color: var(--color-primary-0);color: white;}
+.primary10 {background-color: var(--color-primary-10);color: white;}
+.primary20 {background-color: var(--color-primary-20);color: white;}
+.primary30 {background-color: var(--color-primary-30);color: white;}
+.primary40 {background-color: var(--color-primary-40);color: white;}
+.primary50 {background-color: var(--color-primary-50);color: white;}
+.primary60 {background-color: var(--color-primary-60);color: black;}
+.primary70 {background-color: var(--color-primary-70);color: black;}
+.primary80 {background-color: var(--color-primary-80);color: black;}
+.primary90 {background-color: var(--color-primary-90);color: black;}
+.primary95 {background-color: var(--color-primary-95);color: black;}
+.primary99 {background-color: var(--color-primary-99);color: black;}
+.primary100 {background-color: var(--color-primary-100);color: black;}
+
+.secondary0 {background-color: var(--color-secondary-0);color: white;}
+.secondary10 {background-color: var(--color-secondary-10);color: white;}
+.secondary20 {background-color: var(--color-secondary-20);color: white;}
+.secondary30 {background-color: var(--color-secondary-30);color: white;}
+.secondary40 {background-color: var(--color-secondary-40);color: white;}
+.secondary50 {background-color: var(--color-secondary-50);color: white;}
+.secondary60 {background-color: var(--color-secondary-60);color: black;}
+.secondary70 {background-color: var(--color-secondary-70);color: black;}
+.secondary80 {background-color: var(--color-secondary-80);color: black;}
+.secondary90 {background-color: var(--color-secondary-90);color: black;}
+.secondary95 {background-color: var(--color-secondary-95);color: black;}
+.secondary99 {background-color: var(--color-secondary-99);color: black;}
+.secondary100 {background-color: var(--color-secondary-100);color: black;}
+
+.tertiary0 {background-color: var(--color-tertiary-0);color: white;}
+.tertiary10 {background-color: var(--color-tertiary-10);color: white;}
+.tertiary20 {background-color: var(--color-tertiary-20);color: white;}
+.tertiary30 {background-color: var(--color-tertiary-30);color: white;}
+.tertiary40 {background-color: var(--color-tertiary-40);color: white;}
+.tertiary50 {background-color: var(--color-tertiary-50);color: white;}
+.tertiary60 {background-color: var(--color-tertiary-60);color: black;}
+.tertiary70 {background-color: var(--color-tertiary-70);color: black;}
+.tertiary80 {background-color: var(--color-tertiary-80);color: black;}
+.tertiary90 {background-color: var(--color-tertiary-90);color: black;}
+.tertiary95 {background-color: var(--color-tertiary-95);color: black;}
+.tertiary99 {background-color: var(--color-tertiary-99);color: black;}
+.tertiary100 {background-color: var(--color-tertiary-100);color: black;}
+
+.error0 {background-color: var(--color-error-0);color: white;}
+.error10 {background-color: var(--color-error-10);color: white;}
+.error20 {background-color: var(--color-error-20);color: white;}
+.error30 {background-color: var(--color-error-30);color: white;}
+.error40 {background-color: var(--color-error-40);color: white;}
+.error50 {background-color: var(--color-error-50);color: white;}
+.error60 {background-color: var(--color-error-60);color: black;}
+.error70 {background-color: var(--color-error-70);color: black;}
+.error80 {background-color: var(--color-error-80);color: black;}
+.error90 {background-color: var(--color-error-90);color: black;}
+.error95 {background-color: var(--color-error-95);color: black;}
+.error99 {background-color: var(--color-error-99);color: black;}
+.error100 {background-color: var(--color-error-100);color: black;}
+
+.neutral0 {background-color: var(--color-neutral-0);color: white;}
+.neutral10 {background-color: var(--color-neutral-10);color: white;}
+.neutral20 {background-color: var(--color-neutral-20);color: white;}
+.neutral30 {background-color: var(--color-neutral-30);color: white;}
+.neutral40 {background-color: var(--color-neutral-40);color: white;}
+.neutral50 {background-color: var(--color-neutral-50);color: white;}
+.neutral60 {background-color: var(--color-neutral-60);color: black;}
+.neutral70 {background-color: var(--color-neutral-70);color: black;}
+.neutral80 {background-color: var(--color-neutral-80);color: black;}
+.neutral90 {background-color: var(--color-neutral-90);color: black;}
+.neutral95 {background-color: var(--color-neutral-95);color: black;}
+.neutral99 {background-color: var(--color-neutral-99);color: black;}
+.neutral100 {background-color: var(--color-neutral-100);color: black;}
+
+.neutral-variant0 {background-color: var(--color-neutral-variant-0);color: white;}
+.neutral-variant10 {background-color: var(--color-neutral-variant-10);color: white;}
+.neutral-variant20 {background-color: var(--color-neutral-variant-20);color: white;}
+.neutral-variant30 {background-color: var(--color-neutral-variant-30);color: white;}
+.neutral-variant40 {background-color: var(--color-neutral-variant-40);color: white;}
+.neutral-variant50 {background-color: var(--color-neutral-variant-50);color: white;}
+.neutral-variant60 {background-color: var(--color-neutral-variant-60);color: black;}
+.neutral-variant70 {background-color: var(--color-neutral-variant-70);color: black;}
+.neutral-variant80 {background-color: var(--color-neutral-variant-80);color: black;}
+.neutral-variant90 {background-color: var(--color-neutral-variant-90);color: black;}
+.neutral-variant95 {background-color: var(--color-neutral-variant-95);color: black;}
+.neutral-variant99 {background-color: var(--color-neutral-variant-99);color: black;}
+.neutral-variant100 {background-color: var(--color-neutral-variant-100);color: black;}
+
+.primary{background-color: var(--color-primary); color: var(--color-on-primary);}
+.secondary{background-color: var( --color-secondary); color: var(--color-on-secondary);}
+.tertiary{background-color: var(--color-tertiary); color: var(--color-on-tertiary);}
+.error{background-color: var(--color-error); color: var(--color-on-error);}
+.background{background-color: var(--color-background); color: var(--color-on-background);}
+
+.primary-container{background-color: var(--color-primary-container); color: var( --color-on-primary-container);}
+.secondary-container{background-color: var(--color-secondary-container); color: var(--color-on-secondary-container);}
+.tertiary-container{background-color: var(--color-tertiary-container); color: var(--color-on-tertiary-container);}
+.error-container{background-color: var(--color-error-container); color: var(--color-on-error-container);}
+
+h3{margin: 0.2em;} 
+@media(prefers-color-scheme: dark){
+    :root{
+        
+        --color-primary: var(--color-primary-80);
+        --color-on-primary: var(--color-primary-20);
+    
+        --color-primary-container: var(--color-primary-30);
+        --color-on-primary-container: var(--color-primary-90);
+    
+        --color-secondary: var(--color-secondary-80);
+        --color-on-secondary: var(--color-secondary-20);
+    
+        --color-secondary-container: var(--color-secondary-30);
+        --color-on-secondary-container: var(--color-secondary-90);
+    
+        --color-tertiary: var(--color-tertiary-80);
+        --color-on-tertiary: var(--color-tertiary-20);
+    
+        --color-tertiary-container: var(--color-tertiary-30);
+        --color-on-tertiary-container: var(--color-tertiary-90);
+        
+        --color-error: var(--color-error-80);
+        --color-on-error: var(--color-error-20);
+    
+        --color-error-container: var(--color-error-30);
+        --color-on-error-container: var(--color-error-90);
+
+        --color-background: var(--color-neutral-10);
+        --color-on-background: var(--color-neutral-90);
+      
+        --color-surface: var(--color-neutral-10);
+        --color-on-surface: var(--color-neutral-90);
+
+        
+    }
+}
+.colors-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.colors-list li {
+    width: 3.75em;
+    height: 6.75em;
+    text-align: center;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+.tone-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.tone-list li {
+    width: 13.5em;
+    height: 6.75em;
+    padding: 0.5em;
+    box-sizing: border-box;
+    
+}
+
+
+
+
