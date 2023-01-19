@@ -1,0 +1,36 @@
+@import url(../../sytles/color/colors.css);
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+ul{
+    background-color: var(--color-surface); padding: 1em; width: 250px;
+}
+ul li{list-style: none; height: 40px;}
+
+.list-numbering{
+    background-color: var( --color-primary-90);
+    color:var(--color-primary);
+    border-radius: 100%;
+    padding: 3px 8px;
+    margin-right: 10px;
+}
+
+input[type=checkbox]{
+margin-left: 100px;
+cursor: pointer;
+}
+
+@media(prefers-color-scheme: dark){
+    ul{
+        background-color: var(--color-neutral-10);
+
+    }
+    .list-numbering{
+        background-color: var(--color-primary-30);
+        color:var( --color-primary-90);
+    }
+    li{color: var(--color-primary-100);}
+    
+    .background{background-color: var(--color-background); color: var(--color-on-background);}   
+}
